@@ -21,6 +21,7 @@
         </b-col>
       </b-row>
     </b-container>
+    <Api />
   </div>
 </template>
 
@@ -30,6 +31,7 @@ import Quadrado from "./components/Quadrado.vue";
 import Cubo from "./components/Cubo.vue";
 import RaizQ from "./components/RaizQ.vue";
 import RaizC from "./components/RaizC.vue";
+import Api from "./components/Api.vue";
 
 export default {
   name: "app",
@@ -38,7 +40,8 @@ export default {
     Quadrado,
     Cubo,
     RaizQ,
-    RaizC
+    RaizC,
+    Api
   },
   methods: {},
   data() {
